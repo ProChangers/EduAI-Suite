@@ -65,9 +65,6 @@ If you have any questions or would like to reach out, feel free to contact us:
 
 We look forward to hearing from you!
 
-
-For inquiries, support, or feedback, please contact us at [your email address]. We’d love to hear from you!
-
 ---
 
 Together, let's make learning enjoyable and effective! 🌟
