@@ -48,9 +48,6 @@ Transform your study sessions with **QuizMaster Pro**! Input a topic or upload r
 
 Join the EduAI Suite revolution and transform your studying experience! 
 
-## 🤝 Contributing
-
-We welcome contributions from fellow students and developers! Please read our [contributing guidelines](CONTRIBUTING.md) for more details on how you can get involved.
 
 ## 📄 License
 
