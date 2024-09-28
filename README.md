@@ -46,7 +46,7 @@ Transform your study sessions with **QuizMaster Pro**! Input a topic or upload r
 
 ## 🎉 Get Started Today!
 
-Join the EduAI Suite revolution and transform your studying experience! For installation instructions and further details, check out our [installation guide](INSTALL.md).
+Join the EduAI Suite revolution and transform your studying experience! 
 
 ## 🤝 Contributing
 
@@ -57,6 +57,17 @@ We welcome contributions from fellow students and developers! Please read our [c
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 📬 Contact
+
+If you have any questions or would like to reach out, feel free to contact us:
+
+| Member Name   | Email                 | GitHub Profile                      |
+|---------------|-----------------------|-------------------------------------|
+| Rinkal Mav      | rinkalmav7666@gmail.com | [GitHub](https://github.com/Rinkal-27) |
+| Creflo Coelho    | creflo.c05@gmail.com| [GitHub](https://github.com/janesmith) |
+| Vijay Misal  | vijay.22320079@viit.ac.in | [GitHub](https://github.com/vjymisal0) |
+
+We look forward to hearing from you!
+
 
 For inquiries, support, or feedback, please contact us at [your email address]. We’d love to hear from you!
 
