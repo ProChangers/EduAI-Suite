@@ -64,7 +64,7 @@ If you have any questions or would like to reach out, feel free to contact us:
 |---------------|-----------------------|-------------------------------------|
 | Rinkal Mav      | rinkalmav7666@gmail.com | [GitHub](https://github.com/Rinkal-27) |
 | Creflo Coelho    | creflo.c05@gmail.com| [GitHub](https://github.com/janesmith) |
-| Vijay Misal  | vijay.22320079@viit.ac.in | [GitHub](https://github.com/vjymisal0) |
+| Vijay Misal  | misalvijay153@gmail.com | [GitHub](https://github.com/vjymisal0) |
 
 We look forward to hearing from you!
 
