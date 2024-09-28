@@ -12,64 +12,74 @@ export const Projects = () => {
 
   const projects = [
     {
-      title: "AI Assignment Help",
-      description: "Tired of Writeups from college? Our Tool uses AI to figure out the answers and writes it to a PDF in YOUR Handwriting ;) ",
-      imgUrl: projImg1,
+      title: "Assignment Aider 📝",
+      description: "Unlock the power of AI with Assignment Aider! Just input your assignment questions, and let our advanced language model generate insightful, well-structured answers customized to your handwriting style. Say goodbye to assignment stress and hello to personalized, high-quality responses!",
+     
     },
     {
-      title: "YouTube Summarizer and Chat",
-      description: "Video Lectures too long? Use our tool to summarize the entire Video and Ask Questions to AI for more learning",
-      imgUrl: projImg2,
+      title: "ClipWise 🎥",
+      description: "Elevate your video learning experience with ClipWise! Simply enter any YouTube video link, and receive concise summaries and engaging Q&A sections. Ideal for quick revisions or in-depth understanding, ClipWise helps you grasp key concepts efficiently.",
+     
     },
     {
-      title: "Documents/Notes Summarizer & QnA",
-      description: "Summarize notes instantly for last minute revision",
-      imgUrl: projImg3,
+      title: "WebSage 🌐",
+      description: "Dive into the web with WebSage! This powerful tool summarizes website content, distilling articles, blogs, and tutorials into digestible insights. With integrated Q&A features, WebSage makes it easy to clarify doubts and enhance your understanding of complex topics.",
+   
     },
     {
-      title: "AI Quiz Generated",
-      description: "Use AI to create Quizzes on any topic",
-      imgUrl: projImg1,
+      title: "DocuNinja 📄",
+      description: "Master document review with DocuNinja! Upload any document type—PPTs, DOCs, PDFs, HTMLs, or CSVs—and let our AI generate concise summaries and provide Q&A for further clarification. Extract maximum value from your documents in no time!",
+      
     },
-    
+    {
+      title: "QuickCheat Creator 🥇",
+      description: "Prepare for exams with confidence using QuickCheat Creator! Simply enter the topic name to generate customized cheat sheets filled with key concepts and essential information. Perfect for quick reviews and last-minute studying!",
+     
+    }, {
+      title: " QuizMaster Pro 🎉",
+      description: "Transform your study sessions with QuizMaster Pro! Input a topic or upload relevant materials, and our intelligent AI will create customized quizzes to reinforce your knowledge. Ideal for self-assessment and collaborative study, QuizMaster Pro makes learning dynamic and enjoyable.",
+      
+    }
+
   ];
 
   return (
-    <section className="project"  id="projects">
-      
-    
+    <section className="project" id="projects">
+
+
 
       <Container>
         <Row>
           <Col size={12}>
             <TrackVisibility>
               {({ isVisible }) =>
-              <div >
-                <h2>EduAI Suite - One Platform, for All</h2>
-                <p></p>
-                <Tab.Container id="projects-tabs" defaultActiveKey="first">
-                  
-                  <Tab.Content  >
-                    <Tab.Pane eventKey="first">
-                      <Row>
-                        {
-                          projects.map((project, index) => {
-                            return (
-                              <BasicExample/>
-                            )
-                          })
-                        }
-                      </Row>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="section">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                    <Tab.Pane eventKey="third">
-                      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
-                    </Tab.Pane>
-                  </Tab.Content>
-                </Tab.Container>
-              </div>}
+                <div >
+                  <h2>EduAI Suite - One Platform, for All</h2>
+                  <p></p>
+                  <Tab.Container id="projects-tabs" defaultActiveKey="first">
+
+                    <Tab.Content  >
+                      <Tab.Pane eventKey="first">
+                        <Row>
+                          {
+                            projects.map((project, index) => {
+                              return (
+                                // <BasicExample />
+                                <ProjectCard key={index} title={project.title} description={project.description}  />
+                              )
+                            })
+                          }
+                        </Row>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="section">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      </Tab.Pane>
+                      <Tab.Pane eventKey="third">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque quam, quod neque provident velit, rem explicabo excepturi id illo molestiae blanditiis, eligendi dicta officiis asperiores delectus quasi inventore debitis quo.</p>
+                      </Tab.Pane>
+                    </Tab.Content>
+                  </Tab.Container>
+                </div>}
             </TrackVisibility>
           </Col>
         </Row>
